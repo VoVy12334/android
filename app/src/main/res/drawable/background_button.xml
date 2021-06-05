@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    //hiển thị kh không nhấn nút button
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="@color/teal_200">
+            </solid>
+            //tạo viền button
+            <stroke android:width="3dp"
+                android:color="@color/purple_200"/>
+            // độ bao tròn 4 góc button
+            <corners android:radius="35dp"/>
+
+        </shape>
+    </item>
+
+</selector>
